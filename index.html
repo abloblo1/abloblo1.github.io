@@ -82,9 +82,12 @@ body, html {
     <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> PROJECTS</a>
     <a href="#skills" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-bar-chart"></i> SKILLS  /  RESUME</a>
     <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
+
+    <!-- right now the search doesnt work at all
     <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
       <i class="fa fa-search"></i>
-    </a>
+    </a>-->
+
   </div>
 
   <!-- Navbar on small screens -->
@@ -114,11 +117,12 @@ body, html {
       For now, I am always open to chances and opportunities to develop myself professionally and academically through internships and research positions.
       </p>
   <div class="w3-row">
+    <!-- Dont have picture of myself, could be weird
     <div class="w3-col m6 w3-center w3-padding-large">
       <p><b><i class="fa fa-user w3-margin-right"></i>A . H .   Chao</b></p><br>
       <img src="/pictures/me_1.jpg" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="Photo of Me" width="500" height="333">
     </div>
-
+  -->
     <!-- Hide this text on small devices -->
     <div class="w3-col m6 w3-hide-small w3-padding-large">
       <p>Outside of school, *put stuff in* </p>
@@ -227,7 +231,7 @@ body, html {
 <!-- Container (Contact Section) -->
 <div class="w3-content w3-container w3-padding-64" id="contact">
   <h3 class="w3-center">CURRENT LOCATION</h3>
-  <p class="w3-center"><em>Professional Inqueries? Questions or Concerns? General Advice?</em></p>
+  <p class="w3-center"><em>Professional Inquiries? Questions or Concerns? General Advice?</em></p>
 
   <div class="w3-row w3-padding-32 w3-section">
     <div class="w3-col m4 w3-container">
@@ -237,10 +241,14 @@ body, html {
     <div class="w3-col m8 w3-panel">
       <div class="w3-large w3-margin-bottom">
         <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Naperville, IL<br>
-        <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Phone: +01 (630) - 660 - 9987<br>
+        <!-- might get spam forever dont put phone here
+        <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Phone: +01 (630) - 660 - 9987<br> -->
+        <!-- new email and use that (new gmail or mass direct, dont put andrew739 or else will get spam) -->
         <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: ahchao3@illinois.edu<br>
       </div>
       <p>Swing by for a cup of <i class="fa fa-coffee"></i>, or leave me a note:</p>
+      <!--
+      Get this to work when I can get send message to work
       <form action="/action_page.php" target="_blank">
         <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
           <div class="w3-half">
@@ -255,6 +263,7 @@ body, html {
           <i class="fa fa-paper-plane"></i> SEND MESSAGE
         </button>
       </form>
+    -->
     </div>
   </div>
 </div>
@@ -263,17 +272,18 @@ body, html {
 <footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
   <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
   <div class="w3-xlarge w3-section">
-    <a href="https://www.facebook.com/andrew.chao.395" style="text-decoration:none">
+    <!-- <a href="https://www.facebook.com/andrew.chao.395" style="text-decoration:none">
     <i class="fa fa-facebook-official fa-2x w3-hover-opacity"></i>
     <span class="username">Andrew Chao</span>
+    -->
     <!--<i class="fa fa-instagram w3-hover-opacity"></i>-->
     <a href = "https://github.com/abloblo1" style="text-decoration:none">
-    <i class="fa fa-github fa-2x w3-hover-opacity"></i>
+    <i class="fa fa-github w3-hover-opacity"></i>
     <span class="username">abloblo1</span>
     </a>
     <!--<i class="fa fa-snapchat w3-hover-opacity"></i>-->
     <a href = "https://www.linkedin.com/in/andrew-chao-1451b5165/"style="text-decoration:none">
-    <i class="fa fa-linkedin fa-2x w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
     <span class="username">Andrew Chao</span>
     </a>
     <p></p>
@@ -284,7 +294,7 @@ body, html {
 <script>
 function myMap()
 {
-  myCenter=new google.maps.LatLng(41.799956, -88.151805);
+  myCenter=new google.maps.LatLng(41.774284, -88.150038);
   var mapOptions= {
     center:myCenter,
     zoom:12, scrollwheel: false, draggable: false,
